@@ -22,7 +22,7 @@ RUN   apk add libressl curl openssl && \
       apk add php7-apcu php7-intl php7-mcrypt php7-json php7-gd php7-curl && \
       apk add php7-fpm php7-mysqlnd php7-pgsql php7-sqlite3 php7-phar && \
       apk add php7-ctype php7-tokenizer php7-xml php7-pdo php7-pdo_mysql && \
-      apk add php7-dom php7-session php7-simplexml php7-opcache
+      apk add php7-dom php7-session php7-simplexml php7-opcache php7-zlib
 
 # INSTALL COMPOSER
 RUN   cd /tmp && \
